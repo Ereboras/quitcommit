@@ -11,6 +11,12 @@ If you want to install this script, copy and paste the python file with the name
 
 Make it an executable (after having read the script for a potential virus of course...) and you're good to go !
 
+Here is a line to copy / paste brainlessly when you are at the root of your versionned project :
+
+``` bash
+curl https://raw.githubusercontent.com/Ereboras/quitcommit/master/quitcommit.py -o .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+```
+
 ## Install with docker
 
 Are you serious ?
